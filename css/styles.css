@@ -76,16 +76,20 @@
 .nav-link:active {
   color: var(--c-primary-dunckel);
 }
-.nav-link:after {
-  content: '';
+
+
+.nav-link-first::after {
+  content: "";
   position: absolute;
   left: 0; 
-   bottom: -1px;
-   height: 4px;
-   background-color:var(--c-primary-dunckel);
-   border-radius: 2px; 
+  bottom: -1px;
+  height: 4px;
+  background-color:var(--c-primary-dunckel);
+  border-radius: 2px; 
+
 
 }
+
   /*До класу з псевдоелементом ::after додана властивість content: '' для встановлення вмісту,
    який має бути відображений в псевдоелементі*/
 
