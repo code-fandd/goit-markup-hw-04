@@ -5,6 +5,7 @@
   --c-but: #4d5ae5;
   --c-haup: #434455;
   --c-back-team: #f4f4fd;
+  --GREY: #2e2f42b2;
 }
 
 /* Header*/
@@ -156,7 +157,20 @@ img {
   text-align: center;
   margin: 0 auto; /* zentrierter Titel */
   /*  border: 10px solid #404BBF;*/
+  /*  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(255, 0, 0, 0.3)
+    ),
+    url('/images/people-office 1.webp');*/
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('/images/people-office 1.webp');
 }
+
 .effect {
   color: var(--c-primary-light);
   font-family: 'Roboto', sans-serif;
