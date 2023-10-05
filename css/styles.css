@@ -472,14 +472,14 @@ cursor: pointer; для визначення типу курсору на кно
    align-items: center; 
    justify-content: center; 
 }
-.team-icons-a :hover {
+.team-icons-a:hover {
   background-color: #404bbf; }
-  .team-icons-a :focus{
+  .team-icons-a:focus{
     background-color: #404bbf; 
   }
   .team-icons-item{
-     width: 40px; 
-      height: 40px;
+    width: 40px; 
+    height: 40px;
   }
   .team-icons-item-s{
     fill:#f4f4fd;
