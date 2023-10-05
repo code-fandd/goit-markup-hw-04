@@ -6,6 +6,7 @@
   --c-haup: #434455;
   --c-back-team: #f4f4fd;
   --GREY: #2e2f42b2;
+  --LIGHT-SLATE: #8E8F99;
 }
 
 /* Header*/
@@ -286,6 +287,7 @@ cursor: pointer; для визначення типу курсору на кно
   align-items: center; 
   justify-content: center; 
   height: 112px;
+  border: 1px solid var(--LIGHT-SLATE);
   background-color: #f4f4fd;
   border-radius: 4px; 
   margin-bottom: 8px; 
